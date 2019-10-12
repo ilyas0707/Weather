@@ -1,0 +1,19 @@
+.result{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.weather{
+    background: #121051;
+    width: 100%;
+    height: 100%;
+    border-bottom-right-radius: 50px;
+    box-sizing: border-box;
+    padding: 40px;
+    padding-top: 0;
+}
+.weather__row{
+    font-size: 20px;
+    color: #fff;
+    margin: 0 0 20px 0;
+}

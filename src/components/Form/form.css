@@ -1,0 +1,34 @@
+.form{
+    background: #121051;
+    box-sizing: border-box;
+    width: 100%;
+    padding: 40px;
+    border-top-right-radius: 50px;
+    position: relative;
+}
+.form__row{
+    display: flex;
+}
+.form__input{
+    background: #080a2c;
+    color: #fff;
+    padding: 15px;
+    width: 75%;
+    border: none;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.form__input:focus{
+    border: 1px solid #121090;
+}
+.form__btn{
+    margin-left: 5px;
+    background: orangered;
+    border: none;
+    padding: 0 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.form__btn:active{
+    background: red;
+}
